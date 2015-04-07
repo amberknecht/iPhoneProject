@@ -1,0 +1,65 @@
+nav {
+  background: rgba(0, 0, 0, 0.6);
+  height: 46px;
+}
+
+.subnav li subnav ul {
+  list-style-type: none;
+  margin: 0;  /*don't do*/
+  padding: 0p; /*don't do*/
+}
+
+.subnav {
+  height: 135px;
+  background-color: rgba(255, 255, 255, 0.6)
+  text-align: center;
+}
+
+.subnav ul {
+  display: inline-block;
+  width: 692px;
+  padding-top: 10px;
+}
+
+.subnav li {
+  text-align: center;
+  display: inline-block;
+  height: 113px;
+  margin: 0 23px;
+}
+.subnav a {
+  padding-top: 99px;
+  display: block;
+  color: #666;
+  background-repeat: no-repeat;
+  background-position: top center;
+  text-decoration: none;
+  font-size: 0.75em;
+}
+
+.subnav a:hover {
+  color: #333;
+}
+
+.subnav li:nth-child(1) {
+  background-image: url(iPhone_6_Header.png);
+  width: 68px;
+}
+
+.subnav li:nth-child(2) {
+  background-image: url(iphone_accessories.png);
+}
+
+.subnav li:nth-child(3) {
+  background-image: url(compare_models.png);
+}
+
+.subnav li:nth-child(4) {
+  background-image: url(ios_header.png);
+  width: 47px;
+}
+
+.subnav li:nth-child(5) {
+  background-image: url(icloud_header.png);
+  width: 45px;
+}
