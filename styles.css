@@ -1,0 +1,336 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---------------This is where my CSS starts---------------*/
+
+
+html {
+    font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+    font-size: 16px;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.blackbar {
+    background: rgba(0,0,0,0.6);
+}
+
+nav {
+    height: 46px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+nav > a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0px 35px;
+    height: 46px;
+    display: inline-block;
+    font-size: 1em;
+    height: 46px;
+    line-height: 46px;
+}
+
+nav a:first-of-type {
+    margin-left: 0;
+    font-size: 1.5em;
+}
+
+nav a:last-of-type {
+    margin-right: 0;
+}
+
+.header_pics {
+    height: 135px;
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+
+.header_pics ul {
+    display: inline-block;
+    width: 692px;
+    padding-top: 10px;
+}
+
+.header_pics li{
+    text-align: center;
+    display: inline-block;
+    height: 113px;
+    margin: 0px 23px;
+    background-repeat: no-repeat;
+}
+
+.header_pics a {
+    padding-top: 99px;
+    display: block;
+    color: #666;
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-decoration: none;
+    font-size: .75em;
+}
+
+.header_pics a:hover {
+  color: #333;
+}
+
+.header_pics li:nth-child(1) {
+    background-image: url(iPhone_6_Header.png);
+    width: 68px;
+    background-size: 68px 84px;
+}
+
+.header_pics li:nth-child(2) {
+    background-image: url(iphone_accessories.png);
+    width: 108px;
+    background-size: 108px 84px;
+}
+
+.header_pics li:nth-child(3) {
+    background-image: url(compare_models.png);
+    width: 90px;
+    background-size: 90px 84px;
+}
+
+.header_pics li:nth-child(4) {
+    background-image: url(ios_header.png);
+    width: 47px;
+    background-size: 47px 84px;
+}
+
+.header_pics li:nth-child(5) {
+    background-image: url(icloud_header.png);
+    width: 45px;
+    background-size: 45px 84px;
+}
+
+h1 {
+    font-size: 4.2em;
+    color: #ffffff;
+    margin: 339px 0px 37px 0px;
+}
+
+.beach {
+    background-image: url(hero_large_2x.jpg);
+    display: inline-block;
+    background-size: 2880px 678px;
+    height: 678px;
+    width: 1440px;
+    /*position: absolute;*/
+    background-repeat: no-repeat;
+    top: 0;
+    z-index: -3;
+    text-align: center;
+}
+
+.beach > h3 {
+    font-size: 1.25em;
+    color: #ffffff;
+    line-height: 1em;
+    display: inline-block;
+}
+
+h3 > a {
+    color: #ffffff;
+}
+
+.beach a:hover {
+    color: rgb(0, 136, 204);
+}
+
+.images {
+    margin-top: 1px;
+}
+.images > a {
+    display: inline-block;
+    height: 280px;
+    background-position: center center;
+    background-size: auto 280px;
+}
+
+.images a:nth-child(1){
+    background-image: url(apple_pay.jpg);
+    width: 476px;
+}
+
+.images a:nth-child(2){
+    background-image: url(ios8.jpg);
+    width: 477px;
+}
+
+.images a:nth-child(3){
+    background-image: url(researchkit.jpg);
+    width: 476px;
+}
+
+.applecare {
+    display: inline-block;
+    text-align: center;
+    height: 461px;
+    width: 1424px;
+    margin-top: 46px;
+}
+
+.applecare h2 {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    height: 31px;
+    width: 708px;
+}
+
+.applecare img {
+    display: block;
+    height: 260px;
+    width: 318px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.applecare p:first-of-type {
+    display: inline-block;
+    text-align: center;
+    vertical-align: text-top;
+    font-size: 1em;
+    height: 78px;
+    width: 370px;
+}
+
+.applecare p:last-of-type {
+    margin-top: 18px;
+}
+
+.applecare p:last-of-type:hover {
+    color: rgb(0, 136, 204);
+    text-decoration: underline;
+}
+
+.applecare > a:nth-of-type(1) {
+    display: inline-block;
+    width: 708px;
+}
+
+.applecare > a:nth-of-type(2) {
+    display: inline-block;
+    width: 708px;
+}
+
+.compare {
+    background-image: url(compare.png);
+    background-size: 209px 220px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: left;
+    height: 220px;
+    width: 980px;
+    margin-top: 60px;
+    vertical-align: middle;
+}
+
+.compare h4 {
+    font-size: 2em;
+    margin-top: 100px;
+    margin-bottom: 8px;
+    padding-left: 220px;
+    
+}
+
+.compare p {
+    font-size: 1em;
+    padding-left: 220px;
+}
+
+.shoponline {
+    display: inline-block;
+    text-align: center;
+    height: 208px;
+    width: 197px;
+}
+
+.shoponline > h5 {
+    font-size: 1.5em;
+}
+
+.findastore {
+    display: inline-block;
+    text-align: center;
+    height: 208px;
+    width: 197px;
+}
+
+.findastore > h5 {
+    font-size: 1.5em;
+}
+
+.callapple {
+    display: inline-block;
+    text-align: center;
+    height: 208px;
+    width: 197px;
+}
+
+.callapple > h5 {
+    font-size: 1.5em;
+}
+
+.download {
+    display: inline-block;
+    text-align: center;
+    height: 208px;
+    width: 197px;
+}
+
+.download > h5 {
+    font-size: 1.5em;
+}
