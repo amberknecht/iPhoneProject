@@ -125,31 +125,31 @@ nav a:last-of-type {
 }
 
 .header_pics li:nth-child(1) {
-    background-image: url(iPhone_6_Header.png);
+    background-image: url(media/iPhone_6_Header.png);
     width: 68px;
     background-size: 68px 84px;
 }
 
 .header_pics li:nth-child(2) {
-    background-image: url(iphone_accessories.png);
+    background-image: url(media/iphone_accessories.png);
     width: 108px;
     background-size: 108px 84px;
 }
 
 .header_pics li:nth-child(3) {
-    background-image: url(compare_models.png);
+    background-image: url(media/compare_models.png);
     width: 90px;
     background-size: 90px 84px;
 }
 
 .header_pics li:nth-child(4) {
-    background-image: url(ios_header.png);
+    background-image: url(media/ios_header.png);
     width: 47px;
     background-size: 47px 84px;
 }
 
 .header_pics li:nth-child(5) {
-    background-image: url(icloud_header.png);
+    background-image: url(media/icloud_header.png);
     width: 45px;
     background-size: 45px 84px;
 }
@@ -161,7 +161,7 @@ h1 {
 }
 
 .beach {
-    background-image: url(hero_large_2x.jpg);
+    background-image: url(media/hero_large_2x.jpg);
     display: inline-block;
     background-size: 2880px 678px;
     height: 678px;
@@ -199,17 +199,17 @@ h3 > a {
 }
 
 .images a:nth-child(1){
-    background-image: url(apple_pay.jpg);
+    background-image: url(media/apple_pay.jpg);
     width: 476px;
 }
 
 .images a:nth-child(2){
-    background-image: url(ios8.jpg);
+    background-image: url(media/ios8.jpg);
     width: 477px;
 }
 
 .images a:nth-child(3){
-    background-image: url(researchkit.jpg);
+    background-image: url(media/researchkit.jpg);
     width: 476px;
 }
 
@@ -266,16 +266,20 @@ h3 > a {
     width: 708px;
 }
 
+.compareSection {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-bottom: 84px;
+}
+
 .compare {
-    background-image: url(compare.png);
+    background-image: url(media/compare.png);
     background-size: 209px 220px;
     background-repeat: no-repeat;
     display: inline-block;
-    text-align: left;
     height: 220px;
-    width: 980px;
     margin-top: 60px;
-    vertical-align: middle;
 }
 
 .compare h4 {
@@ -291,7 +295,16 @@ h3 > a {
     padding-left: 220px;
 }
 
+.purchase {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .shoponline {
+    background-image: url(media/shoppingcart.svg);
+    background-size: 44px 44px;
+    background-repeat: no-repeat;
     display: inline-block;
     text-align: center;
     height: 208px;
