@@ -295,9 +295,17 @@ h3 > a {
     padding-left: 220px;
 }
 
+.purchasediv{
+    margin-left: 200px;
+}
+
 .purchase {
     display: inline;
     text-align: center;
+}
+
+.purchase h5 {
+    font-size: 1.5em;
 }
 
 .purchase ul {
@@ -325,30 +333,36 @@ h3 > a {
     background-image: url(media/shoppingcart.svg);
     width: 198px;
     background-size: 43px 43px;
+    background-position: center;
 }
 
 .purchase li:nth-child(2) {
     background-image: url(media/shoponline.svg);
     width: 209px;
     background-size: 43px 46px;
+    background-position: center;
 }
 
 .purchase li:nth-child(3) {
     background-image: url(media/callnow.svg);
     width: 215px;
+    padding-top: 63px;
     background-size: 43px 43px;
+    background-position: top;
+    font-size: .75em;
 }
 
 .purchase li:nth-child(4) {
     background-image: url(media/applestoreapp.jpg);
     width: 195px;
     background-size: 45px 45px;
+    background-position: center;
 }
 
-.shoponline {
-    /*background-image: url(media/shoppingcart.svg);
+/*.shoponline {
+    background-image: url(media/shoppingcart.svg);
     background-size: 44px 44px;
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     display: inline-block;
     text-align: center;
     height: 208px;
@@ -390,7 +404,7 @@ h3 > a {
 
 .download > h5 {
     font-size: 1.5em;
-}
+}*/
 
 .shopSection {
     background-color: rgb(242, 242, 242);
